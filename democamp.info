@@ -1,0 +1,34 @@
+name = DrupalCamp demo
+description = This is a demo for the session about deploying Drupal.
+core = 7.x
+
+; Contrib modules
+dependencies[] = views
+dependencies[] = admin_menu
+dependencies[] = panels
+dependencies[] = devel
+dependencies[] = features
+dependencies[] = pathauto
+
+; Custom modules
+
+; Features
+
+; Core modules
+dependencies[] = dblog
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+

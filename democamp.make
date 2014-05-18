@@ -1,11 +1,7 @@
-core = 7.x
 api = 2
-  
-projects[drupal][version] = 7.28
-
-projects[admin_menu][version] = 3.0-rc4
-projects[admin_menu][type] = "module"
-projects[admin_menu][subdir] = "contrib"
+core = 7.x
+projects[drupal][type] = core
+projects[drupal][version] = 7.22
 
 projects[ctools][version] = 1.4
 projects[ctools][type] = "module"
@@ -43,8 +39,12 @@ projects[token][version] = 1.5
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
 
+projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][type] = "module"
+projects[admin_menu][subdir] = "contrib"
+
 projects[democamp][type] = "profile"
-projects[dempcamp][download][type] = git
+projects[democamp][download][type] = git
 projects[democamp][download][url] = git@github.com:DavidHernandez/democamp.git
 projects[democamp][download][branch] = master
 

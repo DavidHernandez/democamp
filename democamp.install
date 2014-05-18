@@ -1,9 +1,12 @@
 <?php
 
 /**
- * Implements hook_install().
+ * Implements hook_update_N().
  */
-function democamp() {
-
+function democamp_update_1() {
+  $modules = array(
+    'admin_menu'
+  );
+  module_enable($modules);
 }
 

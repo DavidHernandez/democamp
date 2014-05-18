@@ -35,3 +35,16 @@ projects[views][version] = 3.7
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 
+projects[ctools][version] = 1.4
+projects[ctools][type] = "module"
+projects[ctools][subdir] = "contrib"
+
+projects[token][version] = 1.5
+projects[token][type] = "module"
+projects[token][subdir] = "contrib"
+
+projects[democamp][type] = "profile"
+projects[dempcamp][download][type] = git
+projects[democamp][download][url] = git@github.com:DavidHernandez/democamp.git
+projects[democamp][download][branch] = master
+
